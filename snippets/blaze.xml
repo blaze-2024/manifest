@@ -55,7 +55,7 @@
 
   <!-- external repos -->
   <project path="external/colorkt" name="external_colorkt" remote="blaze" />
-  <project path="external/cronet" name="external_cronet" remote="blaze-gitlab" />
+  <project path="external/cronet" name="PixelExperience-Staging/external_cronet" revision="fourteen" remote="github" />
   <project path="external/themelib" name="external_themelib" remote="blaze" />
   <project path="external/tinyxml" name="external_tinyxml" groups="pdk" remote="blaze" />
 
@@ -63,7 +63,6 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="blaze" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="blaze" />
-  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="blaze" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaze" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="blaze" /> 
 
@@ -111,8 +110,9 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="blaze" />
 
   <!-- vendor repos -->
+  <project path="vendor/certification" name="vendor_certification" remote="blaze-gitlab" />
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="blaze-gitlab" />
+  <project path="vendor/gms" name="vendor_gms" remote="blaze-gitlab" />
   <project path="vendor/support" name="vendor_support" remote="blaze" />	
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" revision="uvite" remote="github" />
 	
