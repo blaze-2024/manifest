@@ -15,6 +15,11 @@
            fetch="https://github.com/ProjectBlaze-Devices/"
            revision="13" />   
 
+   <remote  name="2024"
+           fetch="https://github.com/blaze-2024/"
+           revision="14" />
+
+
    <remote  name="kdragon"
            fetch="https://github.com/kdrag0n/"
            revision="master" />
@@ -60,9 +65,9 @@
   <project path="external/tinyxml" name="external_tinyxml" groups="pdk" remote="blaze" />
 
   <!-- framework repos -->
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="blaze" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="blaze" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="2024" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="2024" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="2024" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaze" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="blaze" /> 
 
@@ -76,21 +81,22 @@
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="blaze" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk" remote="blaze" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk" remote="blaze" />
-  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" />
+  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="2024" />
   <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" remote="blaze" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk" remote="blaze" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" groups="pdk" remote="blaze" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk" remote="blaze" />
   <project path="packages/appps/FaceUnlock" name="packages_apps_FaceUnlock" revision="14" remote="blaze" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="blaze" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="2024" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="blaze" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk" remote="blaze" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="blaze" />
-  <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="blaze" />
+  <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="2024" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="blaze" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
-  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="blaze" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="2024" />
+  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="2024" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaze" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaze" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaze-gitlab" />
@@ -110,8 +116,7 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="blaze" />
 
   <!-- vendor repos -->
-  <project path="vendor/certification" name="vendor_certification" remote="blaze-gitlab" />
-  <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
+  <project path="vendor/blaze" name="vendor_blaze" remote="2024" />
   <project path="vendor/gms" name="vendor_gms" remote="blaze-gitlab" />
   <project path="vendor/support" name="vendor_support" remote="blaze" />	
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" revision="uvite" remote="github" />
